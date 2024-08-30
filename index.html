@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <section id="profile-container">
+      <div id="image-container">
+        <img src="./assets/images/avatar-jessica.jpeg" alt="jessica's avatar">
+      </div>
+      <h1>Jessica Randall</h1>
+      <p id="location">London, United Kingdom</p>
+      <p id="description">Front-end developer and avid reader."</p>
+      <button>GitHub</button>
+      <button>Frontend Mentor</button>
+      <button>Linkedin</button>
+      <button>X</button>
+      <button>Ins</button>
+    </section>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Yao-wenbin</a>.
+  </div>
+</body>
+</html>
+<style lang="css">
+  body {
+    background-color: black;
+    color: white;
+  }
+  #profile-container {
+    width: min(80vw, 400px);
+    background-color: #1f1f1f;
+    margin: 40px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px
+  }
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: min(20vw, 150px);
+  }
+  #location {
+    color: #cff659;
+    font-weight: bold;
+  }
+  #description {
+    margin: 10px 0px;
+  }
+
+  button {
+    display: block;
+    background-color: #333333;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 44px;
+    margin: 12px 0px;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #cff659;
+    color: black;
+    
+  }
+</style>
